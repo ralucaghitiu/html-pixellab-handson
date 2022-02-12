@@ -17,7 +17,28 @@
 
 <body>
   <form>
-    <!--  -->
+    <label for="name">Nume*</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      placeholder="Nume"
+      minlength="5"
+      maxlength="30"
+      required
+    ><br><br>
+
+    <label for="surname">Prenume*</label>
+    <input
+      type="text"
+      id="surname"
+      name="surname"
+      placeholder="Prenume"
+      minlength="5"
+      maxlength="30"
+      required
+    ><br><br>
+
     <label for="message">Mesaj*</label>
     <textarea
       name="message"
@@ -28,8 +49,24 @@
       required="false"
     ></textarea>
 
-    <button type="submit">Go</button>
+    <br><br>
 
+    <label for="details">Detalii*</label>
+    <textarea
+      name="details"
+      id="details"
+      cols="30"
+      rows="8"
+      placeholder="Detalii"
+      required="false"
+    ></textarea>
+
+    <br><br>
+
+    <button
+      type="submit"
+      name="submit"
+    >submit</button>
   </form>
 
 
