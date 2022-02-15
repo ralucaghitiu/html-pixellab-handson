@@ -1,0 +1,14 @@
+i {
+  color: red;
+}
+
+.line {
+  text-decoration: underline;
+}
+.links a {
+  text-decoration: none;
+}
+a[href$='.com'] {
+  color: black;
+  text-decoration: underline;
+}
