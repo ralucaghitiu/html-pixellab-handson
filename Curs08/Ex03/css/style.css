@@ -16,3 +16,58 @@
   padding-right: 21px;
   background-color: blue;
 }
+
+.green {
+  width: 500px;
+  height: 220px;
+  border: 1px solid black;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 19px;
+  padding-right: 19px;
+  margin: 0 auto;
+  background-color: green;
+}
+
+.turquoise {
+  border: 1px solid blue;
+  border-radius: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: turquoise;
+}
+
+.purple {
+  color: purple;
+  border: 2px dotted green;
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 15px;
+  background-color: purple;
+}
+
+.container {
+  width: max-content;
+  border: 3px solid green;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.transparent {
+  width: 300px;
+  border: 2px solid red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

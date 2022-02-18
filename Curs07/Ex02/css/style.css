@@ -15,8 +15,7 @@ i {
 }
 
 .line {
-  color: grey;
-  text-decoration: underline;
+  color: gray;
 }
 
 b {
@@ -27,7 +26,7 @@ b {
   color: blue;
 }
 
-.odd .i {
+.odd i {
   text-decoration: underline;
 }
 
@@ -35,7 +34,11 @@ b {
   text-decoration: underline;
 }
 
+a[href^='http://']
+{
+  color: red;
+}
+
 a[href$='.com'] {
   color: black;
-  text-decoration: underline;
 }

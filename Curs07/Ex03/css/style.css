@@ -26,3 +26,13 @@ body {
   color: purple;
   border: 1px solid green;
 }
+
+.box-2 {
+  color: white;
+  border: 1px solid grey;
+}
+
+.box-3 {
+  color: red;
+  border: blue;
+}
