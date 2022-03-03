@@ -1,0 +1,21 @@
+.nested > li:first-child a {
+  text-decoration: none;
+}
+
+.my-list > li:nth-child(3) {
+  background-color: gray;
+}
+
+body h2:nth-of-type(odd) {
+  color: blue;
+  background-color: green;
+}
+
+ul li ul li:nth-child(3) {
+  color: purple;
+}
+
+p:nth-of-type(odd) {
+  background-color: brown;
+  padding: 15px;
+}
