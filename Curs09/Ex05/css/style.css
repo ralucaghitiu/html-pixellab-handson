@@ -25,6 +25,14 @@
 }
 
 /* add code */
+.box-red {
+  transition: width 3s linear;
+}
+
+.box-red:hover {
+  width: 120px;
+}
+
 .box-green {
   transition: transform 5s linear;
 }
@@ -40,4 +48,20 @@
 .box-purple:hover {
   width: 100px;
   height: 100px;
+}
+
+.box-brown {
+  transition: transform 4s ease-in;
+}
+
+.box-brown:hover {
+  transform: rotate(-180deg) scale(0.5);
+}
+
+.box-yellow {
+  transition: transform 3s ease-in-out;
+}
+
+.box-yellow:hover {
+  transform: scale(2);
 }
