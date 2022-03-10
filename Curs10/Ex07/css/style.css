@@ -25,3 +25,21 @@
   top: -1px;
   margin-left: 8px;
 }
+
+.my-second-list a {
+  display: block;
+}
+
+.my-second-list ::before {
+  content: '';
+  display: inline-block;
+  background-color: pink;
+  border-radius: 50%;
+}
+
+.my-second-list ::after {
+  content: '';
+  background-color: blue;
+  display: inline-block;
+  transform: rotate(45deg);
+}
