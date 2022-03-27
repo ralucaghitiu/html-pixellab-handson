@@ -385,12 +385,13 @@ a {
 .header {
   background: url('../images/banners/banner.png') center center / cover
     no-repeat #1b1927;
-  height: 500px;
-  display: flex;
 }
 
-.header .header-top-inner {
-  padding: 30px 150px 0;
+.header-top {
+  height: 500px;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -486,8 +487,23 @@ a {
 }
 
 .footer .footer-social-media ul {
+  margin-top: 25px;
+  width: 86px;
+}
+
+.footer .footer-social-media ul {
   justify-content: space-between;
   display: flex;
+}
+
+.footer .footer-social-media ul li {
+  line-height: 37px;
+  font-size: 22px;
+}
+
+.footer .footer-newsletter input {
+  display: block;
+  margin-top: 12px;
 }
 
 .content-main > section {
@@ -538,4 +554,45 @@ a {
   color: #2b2b2b;
   font-weight: bold;
   text-align: center;
+}
+
+.home-marketing .marketing h1 {
+  font-size: 44px;
+  font-weight: bold;
+  font-family: 'Playfair Display';
+}
+
+.home-marketing .marketing p {
+  font-family: 'Roboto';
+  font-size: 22px;
+  line-height: 43px;
+}
+
+.home-marketing picture {
+  width: 49%;
+  padding-right: 100px;
+}
+
+.home-marketing .marketing p:first-of-type {
+  margin: 40px auto 60px;
+}
+
+.home-marketing {
+  margin-bottom: 100px;
+}
+
+.home-marketing .marketing {
+  width: 41%;
+}
+
+.home-marketing {
+  display: flex;
+}
+
+.home-catalog-preview .view-all a {
+  font-family: 'Roboto';
+  font-size: 22px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
 }
